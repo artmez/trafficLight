@@ -1,0 +1,60 @@
+.imgLinkedin {
+position: relative;
+display: inline-block;
+}   
+
+.imgLinkedin .imgOther {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.imgLinkedin:hover .imgOther {
+    display: inline;
+}
+
+.luzRoja {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(247,15,15);
+    border-radius: 80px;
+}
+
+.luzAmarilla {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(252,177,4);
+    border-radius: 80px;
+}
+
+.luzVerde {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(18,203,47);
+    border-radius: 80px;
+}
+
+.miContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid grey;
+    border-radius: 15px;
+    width: 20%;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.frame {
+    background-color: rgb(216, 212, 212);
+    padding: 1rem 2rem;
+}
+
+.miContainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
